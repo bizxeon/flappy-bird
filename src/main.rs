@@ -134,9 +134,6 @@ impl<'a> Bird<'a> {
             }
         }
 
-        canvas.set_draw_color(Color::RGB(255, 0, 255));
-        canvas.draw_rect(Rect::new(self.collision_box.x1 as i32, self.collision_box.y1 as i32, (self.collision_box.x2 - self.collision_box.x1) as u32, (self.collision_box.y2 - self.collision_box.y1) as u32))?;
-
         Ok(())
     }
 }
@@ -230,15 +227,6 @@ impl<'a> Pipes<'a> {
 
         // bottom part
         canvas.copy(&self.sprite, pipe_bottom_part, Rect::new(self.x as i32, (self.hole_y - self.hole_height - 64) as i32, 64, 64))?;
-
-        canvas.set_draw_color(Color::RGB(255, 0, 255));
-        canvas.draw_rect(Rect::new(self.collision_box_top.x1 as i32, self.collision_box_top.y1 as i32, (self.collision_box_top.x2 - self.collision_box_top.x1) as u32, (self.collision_box_top.y2 - self.collision_box_top.y1) as u32))?;
-        canvas.draw_rect(Rect::new(
-            self.collision_box_bottom.x1 as i32,
-            self.collision_box_bottom.y1 as i32,
-            self.collision_box_bottom.x2 as u32 - self.collision_box_bottom.x1 as u32,
-            self.collision_box_bottom.y2 as u32 - self.collision_box_bottom.y1 as u32
-        ))?;
 
         Ok(())
     }
