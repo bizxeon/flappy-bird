@@ -1,0 +1,46 @@
+{
+    "project": {
+        "creationVersion": "0.9.0",
+        "currentLayerIndex": 0,
+        "guides": [
+        ],
+        "layers": [
+            {
+                "imageData": "iVBORw0KGgoAAAANSUhEUgAAAGAAAAAgCAYAAADtwH1UAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB60lEQVRoge2XPWjCQBSA3xU76+KuIJ3qpoN7hy52yFDsJDeqS3Hr3MGtWzsVDqGgSHGwi2DX4pAOhboZaDcHl3YoOBTSoURyXpK7M1HEvA8cYi753r13fwFAEARBEARBEARBtgrRfeDEzNmyNs9FS/u9cfUnohQ72La9bEsIiSQZ++pXCk5HPipMRUnIJOyz/8B90R23BZGO3GLzVTEQQrgREUQc/VwBeoMOF4SOPAri6PfcA7rjtl0pVUOvnYoDT8tvmE3hv37xZmt+HVT83Azot4akN+gsgwgbgBuV0STzG2YTKKXCz6som/CHwc8vzIB+a0gA4L+xEWUIasTNLxTAuDq1z88uAADgHq65e0/H774vKk/ykKNpyDZS8HH7xd3LNlKQo2mlgIL8MjbtHxWmsFgsPJ9bt//cOsfJE2LyGWO+gVNKoTzJA4B4GnDksg8UmV/GJv1ByQ/j9yxApVQlXmuWbAa4eXyZebZLXf74JmHX/YbZhFqtJhSCMSYcBFT93MXq7p+pJ23VqetgsTm8Hf0GtvFLwq77VQqg6+f2AK+jl8Xmyuunw8ProVb7OPulZ91MPbmciqqBrK6Bn3ffa5+pd82v8h2i41cOzAlEJwlhOh4Xv1aA7tEgI8rOox9BEARBEARBIuUPIOCa0v5wMWsAAAAASUVORK5CYII=",
+                "name": "Layer 1",
+                "opacity": 1,
+                "visible": true
+            }
+        ],
+        "modificationVersion": "0.9.0",
+        "notes": [
+        ],
+        "swatch": {
+            "colours": [
+            ]
+        },
+        "uiState": {
+            "colourPanelExpanded": true,
+            "firstPane": {
+                "offsetX": 341,
+                "offsetY": 392,
+                "sceneCentered": false,
+                "size": 1,
+                "zoomLevel": 7
+            },
+            "lastFillToolUsed": "FillTool",
+            "layerListViewContentY": 0,
+            "layerPanelExpanded": true,
+            "mainSplitViewState": "gqJlaW5kZXgAbnByZWZlcnJlZFdpZHRo+0CEAAAAAAAAomVpbmRleAFucHJlZmVycmVkV2lkdGj7QG4AAAAAAAA=",
+            "panelSplitViewState": "gaJlaW5kZXgBb3ByZWZlcnJlZEhlaWdodPtAbIAAAAAAAA==",
+            "secondPane": {
+                "offsetX": -32,
+                "offsetY": 409,
+                "sceneCentered": true,
+                "size": 0,
+                "zoomLevel": 1
+            },
+            "swatchPanelExpanded": true
+        }
+    }
+}
